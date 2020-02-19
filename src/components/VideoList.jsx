@@ -1,10 +1,16 @@
-var VideoList = () => (
+import VideoListEntry from './VideoListEntry.js';
+import exampleVideoData from './data/exampleVideoData';
+
+var VideoList = (props) => (
+  // const VideoListEntry = that other file <
   <div className="video-list">
+
+    <VideoListEntry properties={props}/>
+    /* <div><h5><em>{VideoListEntry.props.video}</em> view goes here</h5></div>
     <div><h5><em>videoListEntry</em> view goes here</h5></div>
     <div><h5><em>videoListEntry</em> view goes here</h5></div>
     <div><h5><em>videoListEntry</em> view goes here</h5></div>
-    <div><h5><em>videoListEntry</em> view goes here</h5></div>
-    <div><h5><em>videoListEntry</em> view goes here</h5></div>
+    <div><h5><em>videoListEntry</em> view goes here</h5></div> */
   </div>
 );
 

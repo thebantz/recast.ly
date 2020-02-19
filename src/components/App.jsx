@@ -1,10 +1,10 @@
 // TODO: Render the `App` component to the DOM
-// import VideoList from './components/VideoList.js';
-// import VideoListEntry from './components/VideoListEntry.js';
+import VideoList from './components/VideoList.js';
+import VideoListEntry from './components/VideoListEntry.js';
 // import VideoPlayer from './components/VideoPlayer.js';import Search from './components/Search.js';
 
 
-var App = () => (
+var App = (props) => (
   <div>
     <nav className="navbar">
       <div className="col-md-6 offset-md-3">
